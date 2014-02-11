@@ -1,0 +1,52 @@
+Book Organizer Website
+----------
+Currently much of the digital media such as books, movies, and images are left disorganized on many people's computers. It is a burdensome task to organize one's collection of books, movies, and other media. The Book Organizer suite of programs will address this problem by designing a database to keep track of media owned by users. The database will be accessible from various applications such as a web site, a main GUI, and a mobile device application.
+
+This application suite will then be used to catalogue the various media. Users can add notes or reviews to specific sections of their books. Also, the reviews will be optionally uploaded to a global location, such that users can view other peoples notes and collaborate with others that are reading the same section.
+
+The Book Organizer appplication suite will first be centered around books. It will then be expanded to handle other media such as movies, tv shows, drawings, images, etc.
+
+Important features for the books:
+----------
+Bookmarks
+
+Bookmarks are used to mark the progress of users. Multiple bookmarks should be allowed, which can be tagged with specific information. The bookmarks should be able to be searched at a later time.
+
+
+Notes
+
+users can note down important information they come across. These notes can later be searched and sorted.
+
+
+Location Information
+
+Users can record the location of their books, whether they keep it at home, at work, or it is a book they frequently borrow from the library
+
+
+Reading Progress
+
+the programs will be able to record date with the progress that the users have taken
+privacy options for all information (optional encryption) - the information that users are recording may be sensitive information. It is important that the applications respect its users' privacy and go through necessary measures to prevent possible breaches in privacy.
+
+
+Books Database:
+
+
+Book Table
+----------
+ID
+Title
+ISBN
+
+Person Table
+----------
+ID
+First Name
+Last Name
+
+Author Table
+----------
+ID
+BookID
+PersonID
+AuthorType (author, coauthor, editor)
